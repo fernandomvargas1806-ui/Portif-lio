@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfólio – Matemática olímpica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="bar">
+    <!-- Troque "Seu Nome" aqui, no título h1 e no rodapé -->
+    <a class="logo" href="#sobre"><i></i>FERNANDO MEIRA</a>
+    <nav id="menu" aria-label="Menu principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#pesquisa">Pesquisa</a>
+      <a href="#formacao">Formação</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contatos">Contatos</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="sobre" class="hero">
+    <figure class="foto">
+      <label>
+        <!-- Foto fixa: coloque foto.jpg na pasta, apague o hidden e use src="foto.jpg" -->
+        <img id="foto" alt="Foto de perfil" hidden>
+        <div class="ph" id="ph">
+          <svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="42" r="22" fill="#000"/><path d="M14 120c0-30 20-48 46-48s46 18 46 48z" fill="#000"/></svg>
+          Clique aqui para adicionar sua foto
+        </div>
+        <input id="file" type="file" accept="image/*" aria-label="Escolher foto de perfil">
+      </label>
+    </figure>
+    <!-- Caixa de destaque com fundo amarelo claro -->
+    <div class="sobre-card">
+      <h2>QUEM EU SOU?</h2>
+      <p class="just">Olá, me chamo Fernando Meira! Conheçam meu mundinho de exatas.</p>
+      <p class="just">Sou estudante de matemática, pesquiso bastante olimpíadas científicas tanto em ensino médio e ensino superior. Meu foco está em criar ferramentas e materiais didáticos aos estudantes de exatas. Sofri muito para aprender matemática e queria mudar a forma como as pessoas estudam esta matéria tão maravilhosa que nos rodeia desde sempre.</p>
+    </div>
+  </section>
+
+  <section id="pesquisa">
+  <div class="sobre-card">
+    <h2>Linha de pesquisa</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Matemática olímpica</h3>
+        <p>Estudo problemas de olimpíadas e as ideias por trás da resolução deles.</p>
+        <ul class="chips">
+          <li class="hl">Contagem dupla</li>
+          <li>Princípio da contagem</li>
+          <li>Resolução de problemas</li>
+        </ul>
+      </div>
+      <div class="card or">
+        <h3>Site de matemática olímpica</h3>
+        <p>Um espaço para divulgar materiais, aulas, listas de exercícios e simulados.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="formacao">
+  <div class="sobre-card">
+    <h2>Formação</h2>
+    <div class="grid">
+      <div class="card or">
+        <span class="tag">Cursando</span>
+        <h3>Licenciatura em Matemática</h3>
+        <p>Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP).</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="projetos">
+    <div class="sobre-card">
+    <h2>Projetos</h2>
+    <div class="grid">
+      <div class="card">
+        <span class="tag">Projeto</span>
+        <h3>Projeto AHM</h3>
+        <p>Detalhes do projeto AHM em breve.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Projeto</span>
+        <h3>Site de matemática olímpica</h3>
+        <p>Conteúdos olímpicos, listas de exercícios e simulados. Link em breve.</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- Troque os href e os textos pelos seus contatos reais -->
+  <section id="contatos">
+    <div class="sobre-card">
+    <h2>Contatos</h2>
+    <div class="contacts">
+      <a href="mailto:seu-email@exemplo.com">
+        <b>
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="16" x="2" y="4" rx="2"/>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+          </svg>
+          E-mail
+        </b>
+        <span>seu-email@exemplo.com</span>
+      </a>
+
+      <a href="#contatos">
+        <b>
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+          </svg>
+          Instagram
+        </b>
+        <span>@seuusuario</span>
+      </a>
+
+      <a href="#contatos">
+        <b>
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+          </svg>
+          LinkedIn
+        </b>
+        <span>linkedin.com/in/seuusuario</span>
+      </a>
+
+      <a href="#contatos">
+        <b>
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+            <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/>
+          </svg>
+          GitHub
+        </b>
+        <span>github.com/seuusuario</span>
+      </a>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer>Fernando. Licenciatura em Matemática, USP. Matemática olímpica.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
